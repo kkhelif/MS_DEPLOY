@@ -10,20 +10,20 @@ jobs:
     runs-on: windows-latest
     env:
       PROJECT_DIRECTORY_PATH: "MS_DEPLOY"
-      #IIS_SERVER_COMPUTER_NAME: ${{ secrets.IIS_SERVER_COMPUTER_NAME }}
-      #IIS_WEBSITE_NAME: ${{ secrets.IIS_WEBSITE_NAME }}
-      #IIS_SERVER_USERNAME: ${{ secrets.IIS_SERVER_USERNAME }}
-      #IIS_SERVER_PASSWORD: ${{ secrets.IIS_SERVER_PASSWORD }}
-      #RECYCLE_APP_NAME: ${{ secrets.RECYCLE_APP_NAME }}
-      #WEBSITE_CONTENT_PATH: ${{ secrets.WEBSITE_CONTENT_PATH }}
+      IIS_SERVER_COMPUTER_NAME: ${{ secrets.IIS_SERVER_COMPUTER_NAME }}
+      IIS_WEBSITE_NAME: ${{ secrets.IIS_WEBSITE_NAME }}
+      IIS_SERVER_USERNAME: ${{ secrets.IIS_SERVER_USERNAME }}
+      IIS_SERVER_PASSWORD: ${{ secrets.IIS_SERVER_PASSWORD }}
+      RECYCLE_APP_NAME: ${{ secrets.RECYCLE_APP_NAME }}
+    #WEBSITE_CONTENT_PATH: ${{ secrets.WEBSITE_CONTENT_PATH }}
 
       # New Environment Secret
-      IS_SERVER_COMPUTER_NAME: ${{ secrets.IIS_CREDENTIALS }}
-      IIS_WEBSITE_NAME: ${{ secrets.IIS_CREDENTIALS }}
-      IIS_SERVER_USERNAME: ${{ secrets.IIS_CREDENTIALS }}
-      IIS_SERVER_PASSWORD: ${{ secrets.IIS_CREDENTIALS }}
-      RECYCLE_APP_NAME: ${{ secrets.IIS_CREDENTIALS }}
-      WEBSITE_CONTENT_PATH: ${{ secrets.IIS_CREDENTIALS }}
+      #IIS_SERVER_COMPUTER_NAME: ${{ secrets.IIS_CREDENTIALS }}
+      #IIS_WEBSITE_NAME: ${{ secrets.IIS_CREDENTIALS }}
+      #IIS_SERVER_USERNAME: ${{ secrets.IIS_CREDENTIALS }}
+      #IIS_SERVER_PASSWORD: ${{ secrets.IIS_CREDENTIALS }}
+      #RECYCLE_APP_NAME: ${{ secrets.IIS_CREDENTIALS }}
+     # WEBSITE_CONTENT_PATH: ${{ secrets.IIS_CREDENTIALS }}
 
     steps:
     - uses: actions/checkout@v2
