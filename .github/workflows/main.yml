@@ -1,4 +1,4 @@
-name: Dotnet Build-Test-MSDeploy On PREM IIS
+name: Dotnet Build-Test-MSDeploy On PREM IIS SETTINGS
 
 on:
   push:
