@@ -29,7 +29,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Checking environment...
-      uses: kkhelif/MS_DEPLOY@master
+      uses: kkhelif/MS_DEPLOY@DEV
 
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
