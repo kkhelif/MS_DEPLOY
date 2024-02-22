@@ -15,7 +15,7 @@ jobs:
       IIS_SERVER_USERNAME: ${{ secrets.IIS_SERVER_USERNAME }}
       IIS_SERVER_PASSWORD: ${{ secrets.IIS_SERVER_PASSWORD }}
       RECYCLE_APP_NAME: ${{ secrets.RECYCLE_APP_NAME }}
-    #WEBSITE_CONTENT_PATH: ${{ secrets.WEBSITE_CONTENT_PATH }}
+      WEBSITE_CONTENT_PATH: ${{ secrets.WEBSITE_CONTENT_PATH }}
 
       # New Environment Secret
       #IIS_SERVER_COMPUTER_NAME: ${{ secrets.IIS_CREDENTIALS }}
