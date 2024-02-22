@@ -1,4 +1,4 @@
-name: Dotnet Build-Test-MSDeploy On PREM changed Secret
+name: Dotnet Build-Test-MSDeploy On PREM
 
 on:
   push:
